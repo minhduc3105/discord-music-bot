@@ -1,0 +1,13 @@
+.env
+# Các file/thư mục Python phổ biến nên bỏ qua
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.env.*
+.envrc
+# Thư mục ảo
+venv/
+env/
+# VSCode settings
+.vscode/
