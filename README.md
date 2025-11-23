@@ -14,12 +14,11 @@ A feature-rich Discord music bot written in Python using [discord.py](https://gi
 - Logging for easier debugging
 
 ## Requirements
-
 - Python 3.8+
 - [discord.py](https://pypi.org/project/discord.py/) (`pip install -U discord.py`)
 - [yt-dlp](https://pypi.org/project/yt-dlp/) (`pip install -U yt-dlp`)
 - [python-dotenv](https://pypi.org/project/python-dotenv/) (`pip install -U python-dotenv`)
-- FFmpeg (must be installed and in your system PATH)
+- FFmpeg (must be installed and in your system PATH) https://www.gyan.dev/ffmpeg/builds/
 
 ## Setup
 
