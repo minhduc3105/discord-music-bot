@@ -2,6 +2,31 @@
 
 A feature-rich Discord music bot written in Python using [discord.py](https://github.com/Rapptz/discord.py) and [yt-dlp](https://github.com/yt-dlp/yt-dlp). This bot can play music from YouTube, manage queues, control volume, and supports both prefix and slash commands.
 
+# Before you clone this repo yoy need to set up bot on Discord Aplication:
+Goal: Create the bot identity, get the password (Token), and give it permission to hear.
+
+Create the Application:
+- Go to the Discord Developer Portal.
+- Click "New Application" (top right).
+- Name it (e.g., MusicBot) and click Create.
+Create the Bot User:
+- On the left menu, click Bot.
+(Optional) Upload an icon for your bot.
+- Copy the Token: Click "Reset Token" -> "Yes, do it!".
+IMPORTANT: Copy this long string immediately. This is your bot's password. Do not share it.
+Enable Privileged Intents (Crucial):
+- Still on the Bot page, scroll down to the "Privileged Gateway Intents" section.
+- Enable (Turn ON) all three switches:
+-Presence Intent
+- Server Members Intent
+- Message Content Intent (If this is off, your commands will fail).
+- Click "Save Changes" at the bottom.
+Invite the Bot to your Server:
+- On the left menu, click OAuth2 -> URL Generator.
+- Under Scopes, check: bot and applications.commands.
+Under Bot Permissions, check: Administrator (easiest for testing) or specifically Connect, Speak, Send Messages.
+
+Copy the Generated URL at the bottom, paste it into your browser, and invite the bot to your server.
 ## Features
 
 - Play music from YouTube links or search queries
