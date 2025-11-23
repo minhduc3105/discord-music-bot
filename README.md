@@ -9,11 +9,13 @@ Create the Application:
 - Go to the Discord Developer Portal.
 - Click "New Application" (top right).
 - Name it (e.g., MusicBot) and click Create.
+
 Create the Bot User:
 - On the left menu, click Bot.
 (Optional) Upload an icon for your bot.
 - Copy the Token: Click "Reset Token" -> "Yes, do it!".
 IMPORTANT: Copy this long string immediately. This is your bot's password. Do not share it.
+
 Enable Privileged Intents (Crucial):
 - Still on the Bot page, scroll down to the "Privileged Gateway Intents" section.
 - Enable (Turn ON) all three switches:
@@ -21,6 +23,7 @@ Enable Privileged Intents (Crucial):
 - Server Members Intent
 - Message Content Intent (If this is off, your commands will fail).
 - Click "Save Changes" at the bottom.
+
 Invite the Bot to your Server:
 - On the left menu, click OAuth2 -> URL Generator.
 - Under Scopes, check: bot and applications.commands.
